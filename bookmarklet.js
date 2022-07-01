@@ -1,6 +1,5 @@
-javascript:(function(){
-    console.log(
-        Array.from(document.querySelectorAll('.spin-item .spin-text'))
+javascript:(async function(){
+    const playlist = Array.from(document.querySelectorAll('.spin-item .spin-text'))
             .map(item => { 
                 
                 const songEl = item.querySelector('.song');
@@ -13,6 +12,9 @@ javascript:(function(){
                 const album = albumEL ? albumEL.textContent : '';
                 
                 return `${song} - ${artist} - ${album}`;
-            }).join('\n')
-    )
+            }).join('\n');
+    navigator.clipboard.writeText(playlist).then(
+        function(){ console.log("Copied to clipboard!")},
+        function(){ console.log("Could not copy to clipboard")}
+    );
 })();
