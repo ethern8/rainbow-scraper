@@ -6,12 +6,12 @@ Use the bookmarklet to generate the hyphenated text playlist based on the markup
 
 `<Song> - <Artist> - <Album>`  
 
-Use [this Apple Shortcut]() to create an Apple Music playlist based off of the bookmarklet generated string.
+Use [this Apple Shortcut](https://www.icloud.com/shortcuts/5b0753aae7074173b4f816e54f02215e) (also included in this repo) to create an Apple Music playlist based off of the bookmarklet generated string.
 
 ## Install
 - Install the `bookmarklet.js` as a bookmark in your favorite browser.  Need help? [How to install bookmarklets](#how-to-install-bookmarklets)
 
-- Download the Apple Shortcut [Playlist from text]().  You may need to do this in Safari browser so that it prompts you to open the Shortcut in the Shortcuts app. 
+- Add the `Playlist from clipboard` shortcut file to your Shortcuts app.  You can also download the shared shortcut from here: [Playlist from text](https://www.icloud.com/shortcuts/5b0753aae7074173b4f816e54f02215e).  You may need to do this in Safari browser so that it prompts you to open the Shortcut in the Shortcuts app.
 
 - Go to a playlist page on spintron.com such as [Sounds of Summer](https://spinitron.com/WKNC/pl/15815425/WKNC-91-Sounds-of-Summer) or any of Rainbow Riot's playlists [here](https://spinitron.com/WKNC/dj/144442/Rainbow-Riot).
 
